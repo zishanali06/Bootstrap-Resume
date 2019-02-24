@@ -9,6 +9,8 @@ expClick.addEventListener("click", function showCards(){
         card.style.display = "block";
     });
     
+    //removed cursor change on hover class 
     expClick.classList.remove('clickToSee');
+    //removed event listener
     expClick.removeEventListener("click", showCards);
 });
